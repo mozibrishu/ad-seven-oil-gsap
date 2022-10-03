@@ -6,7 +6,7 @@ let hitStatus = true;
 var element = ".element_6"
 var elm = document.querySelector(".element_6");
 Draggable.create(element, {
-    type: "x", edgeResistance: 0.65, bounds: {
+    type: "x", edgeResistance: .95, bounds: {
         top: 0, left: 80, width: 200, height: 100,
     }, onDragEnd: function () {
         if (hitStatus) {
